@@ -1,1 +1,0 @@
-web: ./mvnw liberty:dev
