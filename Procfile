@@ -1,1 +1,1 @@
-web: ./mvnw liberty:run
+web: ./mvnw liberty:dev
