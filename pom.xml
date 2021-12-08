@@ -89,7 +89,7 @@
                             <goal>package</goal>
                         </goals>
                         <configuration>
-                            <include>all,runnable</include>
+                            <include>runnable</include>
                             <packageType>jar</packageType>
                         </configuration>
                     </execution>
