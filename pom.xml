@@ -83,10 +83,14 @@
                         <id>package-server</id>
                         <phase>package</phase>
                         <goals>
+                            <goal>create</goal>
+                            <goal>install-feature</goal>
+                            <goal>deploy</goal>
                             <goal>package</goal>
                         </goals>
                         <configuration>
-                            <include>runnable</include>
+                            <include>all,runnable</include>
+                            <packageType>jar</packageType>
                         </configuration>
                     </execution>
                 </executions>
